@@ -14,7 +14,7 @@ const Navbar = () => {
       </div>
 
       {/* Navigation Links */}
-      <ul className="hidden md:flex gap-8 lg:gap-16 text-black font-bold">
+      <ul className=" md:flex gap-8 lg:gap-16 text-black font-bold">
         <li>
           <Link href="/">Home</Link>
         </li>
@@ -37,10 +37,10 @@ const Navbar = () => {
         <ShoppingCart className="cursor-pointer w-5 h-5 md:w-6 md:h-6" />
       </div>
 
-      {/* Mobile Menu (Hamburger) */}
+      {/* Mobile Menu (Hamburger)
       <div className="md:hidden">
         <button className="text-black font-bold">☰</button>
-      </div>
+      </div> */}
     </div>
   );
 };
