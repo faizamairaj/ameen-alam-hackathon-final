@@ -37,10 +37,7 @@ const Navbar = () => {
         <ShoppingCart className="cursor-pointer w-5 h-5 md:w-6 md:h-6" />
       </div>
 
-      {/* Mobile Menu (Hamburger)
-      <div className="md:hidden">
-        <button className="text-black font-bold">☰</button>
-      </div> */}
+     
     </div>
   );
 };
